@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">In Class 1</string>
+    <string name="faculty_name">Faculty of Information Technology</string>
+    <string name="faculty_telephone">+84&#8211;28&#8211;38354266</string>
+    <string name="faculty_website">https://www.fit.hcmus.edu.vn</string>
+    <string name="faculty_email">info@fit.hcmus.edu.vn</string>
+</resources>
