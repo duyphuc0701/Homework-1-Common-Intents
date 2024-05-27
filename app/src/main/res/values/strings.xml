@@ -4,4 +4,8 @@
     <string name="faculty_telephone">+84&#8211;28&#8211;38354266</string>
     <string name="faculty_website">https://www.fit.hcmus.edu.vn</string>
     <string name="faculty_email">info@fit.hcmus.edu.vn</string>
+    <string name="faculty_location">Faculty of Information Technology, 227 Nguyen Van Cu, District 5, Ho Chi Minh City</string>
+    <string name="button_camera">Self-portrait photograph</string>
+    <string name="button_media">Introduction of our University</string>
+
 </resources>

@@ -42,7 +42,33 @@ public class MainActivity extends AppCompatActivity {
         else if(viewID == R.id.buttonEmail)
         {
             onClickSendEmail(view);
+        } else if(viewID == R.id.buttonMap)
+        {
+            onClickShowMap(view);
+        } else if(viewID == R.id.buttonCamera)
+        {
+            onClickOpenCamera(view);
+        } else if(viewID == R.id.buttonMedia)
+        {
+            onClickPlayMedia(view);
         }
+    }
+
+    private void onClickPlayMedia(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("https://youtu.be/TouMO5U4dK0"));
+        startActivity(intent);
+    }
+
+    private void onClickOpenCamera(View view) {
+        Intent intent = new Intent("android.media.action.IMAGE_CAPTURE");
+        startActivity(intent);
+    }
+
+    private void onClickShowMap(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("geo:0,0?q=1600+Amphitheatre+Parkway,+Mountain+View,+California"));
+        startActivity(intent);
     }
 
     private void onClickSendEmail(View view) {

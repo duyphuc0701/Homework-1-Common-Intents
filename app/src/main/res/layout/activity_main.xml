@@ -57,7 +57,33 @@
                 android:onClick="onClickButton"/>
         </LinearLayout>
 
+
+
+
     </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/buttonMap"
+        android:text="@string/faculty_location"
+        android:onClick="onClickButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/buttonCamera"
+        android:text="@string/button_camera"
+        android:onClick="onClickButton"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/buttonMedia"
+        android:text="@string/button_media"
+        android:onClick="onClickButton"/>
 
 
 
